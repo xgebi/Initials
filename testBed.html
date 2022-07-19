@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test bed</title>
+  <style>
+    @font-face {
+     font-family: 'OrnamentalInitials';
+     src:  url('OrnamentalInitials.ttf')  format('truetype'),
+           url('OrnamentalInitials.svg#OrnamentalInitials') format('svg');
+    }
+
+    body {
+        font-size: 5rem;
+    }
+
+    table {
+        margin: 0 5rem;
+    }
+
+    td {
+        padding-left: 2rem;
+    }
+
+    p {
+        font-size: 20px;
+        width: 80ch;
+        margin: 0 auto;
+    }
+
+    .ornaments {
+        font-family: 'OrnamentalInitials',serif;
+    }
+
+    .ornamental-initals-ps p::first-letter {
+        font-family: 'OrnamentalInitials',serif;
+        font-size: 48px;
+        line-height: 56px;
+    }
+  </style>
+</head>
+<body>
+  <table class="ornaments">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+      <td>F</td>
+      <td>E</td>
+      <td>F</td>
+      <td>G</td>
+    </tr>
+  </table>
+  <section class="ornamental-initals-ps">
+    <h2>OrnamentalInitials</h2>
+    <p>
+      A gouda goat bocconcini. Smelly cheese brie emmental red leicester cut the cheese cheeseburger pepper jack dolcelatte. Chalk and cheese hard cheese lancashire taleggio bocconcini dolcelatte mascarpone cheese and wine. Cut the cheese danish fontina rubber cheese ricotta cheddar bocconcini.
+    </p>
+  </section>
+</body>
+</html>
